@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Schulz45 - Desenvolvimento e Tecnologia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- MENU -->
+    <header>
+        <h1>Schulz45</h1>
+        <nav>
+            <a href="#sobre">Sobre</a>
+            <a href="#contato">Contato</a>
+            <a href="#avaliacao">Avaliação</a>
+        </nav>
+    </header>
+
+    <!-- SOBRE -->
+    <section id="sobre">
+        <h2>Sobre a empresa</h2>
+        <p>
+            A <strong>Schulz45</strong> é uma empresa voltada para a área de
+            desenvolvimento e tecnologia, especializada em
+            sites e softwares.
+        </p>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato">
+        <h2>Contato</h2>
+
+        <!-- BOTÕES -->
+        <div class="botoes">
+            <a class="botao whatsapp"
+               href="https://wa.me/5547984007226"
+               target="_blank">
+               WhatsApp
+            </a>
+
+            <a class="botao email"
+               href="mailto:admschulz45@gmail.com">
+               Enviar Email
+            </a>
+        </div>
+
+        <!-- FORMULÁRIO -->
+        <form action="mailto:admschulz45@gmail.com"
+              method="post"
+              enctype="text/plain">
+
+            <h3>Fale com a gente</h3>
+
+            <input type="text"
+                   name="Nome"
+                   placeholder="Seu nome"
+                   required>
+
+            <input type="email"
+                   name="Email"
+                   placeholder="Seu email"
+                   required>
+
+            <textarea name="Mensagem"
+                      placeholder="Sua mensagem"
+                      required></textarea>
+
+            <!-- AVALIAÇÃO -->
+            <label>Avaliação:</label>
+            <select name="Avaliacao">
+                <option value="5 estrelas">⭐⭐⭐⭐⭐ Excelente</option>
+                <option value="4 estrelas">⭐⭐⭐⭐ Bom</option>
+                <option value="3 estrelas">⭐⭐ Regular</option>
+                <option value="2 estrelas">⭐⭐ Ruim</option>
+                <option value="1 estrela">⭐ Péssimo</option>
+            </select>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2026 - Schulz45</p>
+    </footer>
+
+</body>
+</html>
